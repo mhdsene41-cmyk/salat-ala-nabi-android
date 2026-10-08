@@ -1,30 +1,63 @@
 # 🕌 SalatAlaNabi
 
-SalatAlaNabi est une application Android de Tasbih permettant à l'utilisateur
-de faire le Salat Ala Nabi à l'aide d'un compteur numérique.
+## 📌 Présentation
+
+**SalatAlaNabi** est une application Android de Tasbih dédiée à la
+pratique du Salat Ala Nabi ﷺ.
+
+L'application permet à l'utilisateur de compter facilement ses
+Salat Ala Nabi grâce à un compteur numérique, de suivre sa pratique
+à l'aide d'un calendrier et de consulter une section consacrée à la
+biographie du Prophète Muhammad ﷺ.
 
 ## ✨ Fonctionnalités
 
-- 📿 Compteur de Tasbih
-- 🕌 Salat Ala Nabi
-- 📅 Calendrier de suivi des Tasbih
-- 📊 Suivi des séances
-- 🔄 Réinitialisation du compteur
-- 📱 Interface adaptée aux appareils Android
+### 📿 Compteur de Tasbih
 
-## 🛠️ Technologies
+L'application permet de compter les Salat Ala Nabi ﷺ à l'aide d'un
+compteur numérique simple et pratique.
+
+### 📅 Calendrier de suivi
+
+Un calendrier permet à l'utilisateur de suivre ses différentes
+séances de Tasbih et de mieux organiser sa pratique.
+
+### 📖 Biographie du Prophète Muhammad ﷺ
+
+L'application contient une section présentant des informations
+biographiques sur le Prophète Muhammad ﷺ.
+
+### 🔄 Gestion du compteur
+
+L'utilisateur peut utiliser le compteur et le réinitialiser
+pour commencer une nouvelle séance.
+
+## 🎯 Objectif du projet
+
+L'objectif de SalatAlaNabi est de proposer un outil Android simple
+permettant de faciliter la pratique du Salat Ala Nabi ﷺ, tout en
+offrant un moyen de suivre régulièrement ses séances et de consulter
+des informations biographiques sur le Prophète Muhammad ﷺ.
+
+## 🛠️ Technologies utilisées
 
 - Android Studio
+- Android SDK
 - Java / Kotlin
 - Gradle
-- Android SDK
+- XML pour les interfaces Android
 
-## 🎯 Objectif
+## 📂 Structure du projet
 
-L'objectif de l'application est de faciliter la pratique du Salat Ala Nabi
-et de permettre à l'utilisateur de suivre régulièrement ses séances de Tasbih.
-
-## 📂 Projet
-
-Ce dépôt contient le code source de l'application Android ainsi que les
-ressources nécessaires à son développement.
+```text
+salat-ala-nabi-android/
+│
+├── app/
+├── gradle/
+├── .gitignore
+├── build.gradle.kts
+├── gradle
+├── gradlew
+├── gradlew.bat
+├── settings.gradle.kts
+└── README.md
